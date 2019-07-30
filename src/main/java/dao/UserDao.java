@@ -8,4 +8,9 @@ public class UserDao {
         this.userId = userId;
     }
 
+    public String getUserId() {
+        System.out.println("1.0版本上增加的方法");
+        return userId;
+    }
+
 }
